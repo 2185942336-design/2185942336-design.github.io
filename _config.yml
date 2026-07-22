@@ -1,0 +1,16 @@
+# 网站标题
+title: 我的 CTF 笔记库
+description: 记录网络安全与编程学习心得
+
+# 使用 Jekyll 官方推荐的 "Minima" 主题（简洁、经典）
+theme: minima
+
+# 开启代码高亮
+highlighter: rouge
+
+# 设置默认布局，确保所有 md 文件都自动套用模板
+defaults:
+  - scope:
+      path: "" # 对所有文件生效
+    values:
+      layout: post # 使用文章布局
