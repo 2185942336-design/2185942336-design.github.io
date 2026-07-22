@@ -1,0 +1,17 @@
+﻿# CTFshow 笔记 - Jekyll 配置
+title: CTFshow 笔记
+description: CTF 安全学习笔记合集
+markdown: GFM
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+  - jekyll-relative-links
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+
+relative_links:
+  enabled: true
